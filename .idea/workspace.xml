@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7fd8ba0-530a-40a0-9aea-d7155655ebad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,5 +34,11 @@
       <updated>1593596356144</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="193" width="598" height="490" key="find.popup" timestamp="1594973893818">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="421" y="193" width="598" height="490" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1594973893818" />
   </component>
 </project>
