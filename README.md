@@ -17,6 +17,7 @@ TextCNN文件夹
 
 ## Res2Net 通用图片分类模型
 Res2Net文件夹
+```
 ├── __init__.py
 ├── config.py
 ├── data
@@ -41,3 +42,4 @@ Res2Net文件夹
 ├── model    #保存模型
 ├── model_utils.py   #模型处理
 └── res2next.py    #res2next模型
+```
