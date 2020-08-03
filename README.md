@@ -9,3 +9,11 @@
 ### python文件
 unsuper_classification.py
 
+
+## TextCNN 通用文本分类模型
+TextCNN文件夹
+注意：数据目录下的每个文件夹放好对应的要训练的目录，目录里面放好单个文件就可以
+/data/train/
+
+## Res2Net 通用图片分类模型
+Res2Net文件夹
