@@ -17,3 +17,27 @@ TextCNN文件夹
 
 ## Res2Net 通用图片分类模型
 Res2Net文件夹
+├── __init__.py
+├── config.py
+├── data
+│   ├── eval
+│   │   ├── 狗
+│   │   ├── 猫
+│   │   ├── 鸡
+│   │   └── 鸭
+│   ├── predict
+│   ├── test
+│   │   ├── 狗
+│   │   ├── 猫
+│   │   ├── 鸡
+│   │   └── 鸭
+│   └── train
+│       ├── 狗
+│       ├── 猫
+│       ├── 鸡
+│       └── 鸭
+├── data_utils.py   #数据处理
+├── main.py  #程序入口，支持训练，预测，继续训练
+├── model    #保存模型
+├── model_utils.py   #模型处理
+└── res2next.py    #res2next模型
