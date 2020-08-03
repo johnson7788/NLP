@@ -14,6 +14,24 @@ unsuper_classification.py
 TextCNN文件夹
 注意：数据目录下的每个文件夹放好对应的要训练的目录，目录里面放好单个文件就可以
 /data/train/
+```
+├── Readme.md
+├── config.py
+├── data
+│   ├── eval
+│   │   ├── 新闻
+│   │   ├── 科技
+│   │   └── 天气
+│   ├── predict
+│   └── train
+│       ├── 新闻
+│       ├── 科技
+│       └── 天气
+├── data_utils.py
+├── main.py
+├── model
+└── model_utils.py
+```
 
 ## Res2Net 通用图片分类模型
 Res2Net文件夹
