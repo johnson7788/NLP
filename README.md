@@ -1,6 +1,6 @@
 # NLP
 
-## 欢迎来我的知乎博客提问: https://www.zhihu.com/people/johnson-51-82-13
+## 欢迎来我的知乎博客提问: https://www.zhihu.com/people/be_with_you
 
 ## News
 translate 域适应翻译模型, 微调模型命令
