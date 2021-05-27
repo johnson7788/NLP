@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Date  : 2021/5/27 2:47 下午
-# @File  : do_translate.py
-# @Author: johnson
-# @Contact : github: johnson7788
-# @Desc  :
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # @Date  : 2021/4/28 5:44 下午
 # @File  : translate_ppt.py
 # @Author: johnson
@@ -345,5 +337,5 @@ if __name__ == "__main__":
     # 预训练模型
     model = TranslateModel()
     nobusy_count = 0
-    # slade_change(SRC_PPT="/Users/admin/Documents/lavector/翻译/图表翻译.pptx",TARGET_PPT="/Users/admin/Downloads/表格翻译-英文.pptx")
+    # slade_change(SRC_PPT="图表翻译.pptx",TARGET_PPT="表格翻译-英文.pptx")
     app.run(host='0.0.0.0', port=3325, debug=False, threaded=True)
