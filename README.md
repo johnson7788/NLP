@@ -2,6 +2,24 @@
 
 ## 欢迎来我的知乎博客提问: https://www.zhihu.com/people/johnson-51-82-13
 
+## News
+translate 域适应翻译模型, 微调模型命令
+```buildoutcfg
+python run_translation.py --model_name_or_path
+facebook/m2m100_418M
+--do_train
+--do_eval
+--fp16 True
+--dataset_name custom_zh_en
+--source_lang zh
+--target_lang en
+--output_dir output/zh-en-translation
+--per_device_train_batch_size=8
+--per_device_eval_batch_size=8
+--overwrite_output_dir
+--predict_with_generate
+```
+
 ## 主要使用tfidf+doc2vec+albert实现无监督文本分类, 代码有些粗鄙，有些问题已经在代码中标注，我会逐渐修改完善，欢迎任何意见和建议！
 实际测试准确率不高，还是需要结合人工制定规则+有监督训练，在结合部分无监督训练可能有更好效果
 
